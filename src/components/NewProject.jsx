@@ -16,7 +16,7 @@ export default function NewProject({ onAdd, onCancel}) {
 
     if (
       eneteredTile.trim() === "" ||
-      eneteredDescription.tim() === "" ||
+      eneteredDescription.trim() === "" ||
       eneteredDueDate.trim() === ""
     ) {
       modal.current.open();
